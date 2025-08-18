@@ -9,4 +9,28 @@ body {
 
 .container {
     background: white;
+    max-width: 1064;
+    margin: 0 auto;
+}
+
+/* Criando Header */
+header {
+    background: #58A0C8;
+    /*Altura */
+    height: 120px;
+    border-bottom: 8px solid #34699A;
+    /*Flexbox */
+    display: flex;
+    align-items: center
+}
+
+header {
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+header h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
 }
