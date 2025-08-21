@@ -183,7 +183,7 @@ header h2 {
 }
 
 footer {
-    background: #000;
+    background: #1f1e1e;
     height: 40px;
     display: flex;
     justify-content: center;
@@ -193,4 +193,9 @@ footer {
 footer p {
     color: #fff;
 
+}
+
+/*Página Sobre*/
+.spaceSobre {
+    margin:20px 0 20px 0;
 }
