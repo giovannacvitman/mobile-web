@@ -180,6 +180,17 @@ header h2 {
     padding: 10px;
     color: #0a2d4e;
     font-weight: bold;
+}
 
+footer {
+    background: #000;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #fff;
 
 }
