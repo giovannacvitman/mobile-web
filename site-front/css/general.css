@@ -196,7 +196,7 @@ footer p {
 }
 
 /*Página Sobre*/
-.spaceSobre {
+.spaceSobre, .spacContato {
     margin:20px 0 20px 0;
 }
 
@@ -261,3 +261,22 @@ footer p {
     color: #0a2d4e;
     font-weight: bold;
 }
+
+
+/* Seções Missão, Visão, Valores - Pagina Contato*/
+.missao, .visao, .valores {
+margin-bottom: 20px;
+margin-left: 10px;
+}
+
+.text-contato {
+    margin: 0 0 20px 20px;
+    font-size: 30px;
+}
+
+.text-contato strong {
+    color: rgb(177, 44, 44);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
