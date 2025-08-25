@@ -262,11 +262,32 @@ footer p {
     font-weight: bold;
 }
 
+/* Página Sobre */
 
-/* Seções Missão, Visão, Valores - Pagina Contato*/
+/* Banner com imagem */
+.banner {
+background: url(http://127.0.0.1:5500/img/boxSobre.jpg) no-repeat center center/cover; /* Imagem de fundo */
+display: flex; /* Centraliza conteúdo */
+align-items: center; /* Alinha verticalmente */
+justify-content: center; /* Alinha horizontalmente */
+color: white; /* Cor do texto */
+text-shadow: 1px 1px 5px rgba(0,0,0,0.7); /* Sombra para destacar */
+}
+
+.banner h1 {
+font-size: 3em; /* Tamanho da fonte do título */
+margin: 0;
+}
+
+
+/* Seções Missão, Visão, Valores*/
 .missao, .visao, .valores {
 margin-bottom: 20px;
 margin-left: 10px;
+}
+
+.valores li {
+    margin-left: 20px;
 }
 
 .text-contato {
