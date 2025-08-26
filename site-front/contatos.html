@@ -43,35 +43,79 @@
         <form>
             <article class="form-group">
                 <label for="nome">Nome</label>
-                <input type="text" id="nome">
+                <input type="text" id="nome"/>
             </article>
 
             <article class="form-group">
                 <label for="email">Email</label>
-                <input type="text" id="email">
+                <input type="text" id="email"/>
             </article>
 
             <article class="form-group-sexo">
                 <strong>Sexo: </strong>
                 <br>
                 <label for="mac">Masculino</label>
-                <input type="radio" name="sexo" id="masc">
+                <input type="radio" name="sexo" id="masc"/>
                 <br>
                 <label for="fem">Feminino</label>
-                <input type="radio" name="sexo" id="fem">
+                <input type="radio" name="sexo" id="fem"/>
                 <br>
                 <label for="outros">Outros</label>
-                <input type="radio" name="sexo" id="outros">
+                <input type="radio" name="sexo" id="outros"/>
             </article>
 
             <article class="form-group select">
                 <select>
                     <option>Selecione o Estado</option>
-                    <option value="sp">SP</option>
-                    <option value="rj">RJ</option>
+                    <option value="ac">AC</option>
+                    <option value="al">AL</option>
+                    <option value="ap">AP</option>
+                    <option value="am">AM</option>
+                    <option value="ba">BA</option>
+                    <option value="ce">CE</option>
+                    <option value="df">DF</option>
+                    <option value="es">ES</option>
+                    <option value="go">GO</option>
+                    <option value="ma">MA</option>
+                    <option value="mt">MT</option>
+                    <option value="ms">MS</option>
                     <option value="mg">MG</option>
-                    <option value="outros">Outros</option>
+                    <option value="pa">PA</option>
+                    <option value="pb">PB</option>
+                    <option value="pr">PR</option>
+                    <option value="pe">PE</option>
+                    <option value="pi">PI</option>
+                    <option value="rj">RJ</option>
+                    <option value="rn">RN</option>
+                    <option value="rs">RS</option>
+                    <option value="sp">RO</option>
+                    <option value="rr">RR</option>
+                    <option value="sc">SC</option>
+                    <option value="sp">SP</option>
+                    <option value="se">SE</option>
+                    <option value="to">TO</option>
                 </select>
+            </article>
+
+            <article>
+                <fieldset>
+                    <legend>Receber email</legend>
+                    <section class="form-group-info">
+                        <label for="sim">Sim</label>
+                        <input type="checkbox" id="sim"/>
+
+                    </section>
+                </fieldset>
+            </article>
+
+            <article class="form-group-info">
+                <label for="idade">Idade</label>
+                <input type="number" id="Idade" min="0" max="120" class="form-control-padrao"/>
+            </article>
+
+            <article>
+                <label for="nível">Nível de Satisfação</label>
+            <input type="range" id="nível" min="0" max="10">
             </article>
         </form>
     </main>
