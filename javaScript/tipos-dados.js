@@ -15,5 +15,5 @@ console.log("Meu nome é: " + nome);
 console.log("Minha idade é: ", idade)
 console.log("Casada?", casada);
 console.log("R$", valorProduto);
-console.log (typeof idade)
-console.log (typeof nome)
+console.log (typeof idade);
+console.log (typeof nome);
